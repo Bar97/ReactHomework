@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right, #c04848, #480048);
+}
+.App {
+  font-family: sans-serif;
+}
+.img {
+  width: 220px;
+  max-height: 300px;
+}
+.container {
+  border-radius: 5px;
+  flex-wrap: wrap;
+  display: flex;
+
+  margin: 10px;
+  height: 400px;
+}
+.fhotocard {
+  height: 250px;
+  position: relative;
+  border: 3px solid;
+  margin: 5px;
+  border-radius: 3px;
+  width: 220px;
+}
+.show {
+  height: 25px;
+  position: relative;
+  border: 3px solid;
+  margin: 5px;
+  border-radius: 3px;
+  width: 220px;
+}
+.close {
+  position: absolute;
+  top: 8px;
+  left: 185px;
+}
+.none {
+  display: none;
+}
+
+.show {
+  position: absolute;
+  top: 110px;
+  left: 60px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-style: italic;
+
+  text-align: center;
+}
+
+.count {
+  overflow: scroll;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 600px;
+  background-color: aliceblue;
+
+  width: 800px;
+  height: 300px;
+
+  border: 5px solid;
+}
